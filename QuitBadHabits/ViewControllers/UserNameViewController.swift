@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  UserNameViewController.swift
 //  QuitBadHabits
 //
 //  Created by Богдан Баринов on 12.09.2022.
@@ -7,13 +7,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class UserNameViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        title = "ss"
+        view.backgroundColor = .yellow
     }
 
 
 }
-

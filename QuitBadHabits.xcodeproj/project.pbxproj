@@ -9,23 +9,41 @@
 /* Begin PBXBuildFile section */
 		71E800FE28CF5137001FD3D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E800FD28CF5137001FD3D3 /* AppDelegate.swift */; };
 		71E8010028CF5137001FD3D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E800FF28CF5137001FD3D3 /* SceneDelegate.swift */; };
-		71E8010228CF5137001FD3D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8010128CF5137001FD3D3 /* ViewController.swift */; };
-		71E8010528CF5137001FD3D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E8010328CF5137001FD3D3 /* Main.storyboard */; };
+		71E8010228CF5137001FD3D3 /* WelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8010128CF5137001FD3D3 /* WelcomeScreenViewController.swift */; };
 		71E8010828CF5137001FD3D3 /* QuitBadHabits.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71E8010628CF5137001FD3D3 /* QuitBadHabits.xcdatamodeld */; };
 		71E8010A28CF5138001FD3D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71E8010928CF5138001FD3D3 /* Assets.xcassets */; };
 		71E8010D28CF5138001FD3D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E8010B28CF5138001FD3D3 /* LaunchScreen.storyboard */; };
+		71E8011828CF5458001FD3D3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8011728CF5458001FD3D3 /* Colors.swift */; };
+		71E8011A28CF5492001FD3D3 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8011928CF5492001FD3D3 /* UIColor + Extension.swift */; };
+		71E8011D28CF6B50001FD3D3 /* Stallone.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 71E8011C28CF6B50001FD3D3 /* Stallone.m4a */; };
+		71E8011F28CF7EA5001FD3D3 /* UserInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8011E28CF7EA5001FD3D3 /* UserInformationViewController.swift */; };
+		71E8012128CF850F001FD3D3 /* UserNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8012028CF850F001FD3D3 /* UserNameViewController.swift */; };
+		71E8012328CFD2A1001FD3D3 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8012228CFD2A1001FD3D3 /* ViewController1.swift */; };
+		71E8012528CFD2BE001FD3D3 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8012428CFD2BE001FD3D3 /* ViewController2.swift */; };
+		71E8012728CFD2C5001FD3D3 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8012628CFD2C5001FD3D3 /* ViewController3.swift */; };
+		AF296BED96C8500CCC63E29A /* Pods_QuitBadHabits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B895D2DABC52D05B2DCA94 /* Pods_QuitBadHabits.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		71E800FA28CF5137001FD3D3 /* QuitBadHabits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuitBadHabits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71E800FD28CF5137001FD3D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71E800FF28CF5137001FD3D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		71E8010128CF5137001FD3D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		71E8010428CF5137001FD3D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71E8010128CF5137001FD3D3 /* WelcomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenViewController.swift; sourceTree = "<group>"; };
 		71E8010728CF5137001FD3D3 /* QuitBadHabits.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QuitBadHabits.xcdatamodel; sourceTree = "<group>"; };
 		71E8010928CF5138001FD3D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71E8010C28CF5138001FD3D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71E8010E28CF5138001FD3D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E8011728CF5458001FD3D3 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		71E8011928CF5492001FD3D3 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		71E8011C28CF6B50001FD3D3 /* Stallone.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stallone.m4a; sourceTree = "<group>"; };
+		71E8011E28CF7EA5001FD3D3 /* UserInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformationViewController.swift; sourceTree = "<group>"; };
+		71E8012028CF850F001FD3D3 /* UserNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameViewController.swift; sourceTree = "<group>"; };
+		71E8012228CFD2A1001FD3D3 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		71E8012428CFD2BE001FD3D3 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		71E8012628CFD2C5001FD3D3 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		7F3CAF27C6DF4FFD355FA9EE /* Pods-QuitBadHabits.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuitBadHabits.release.xcconfig"; path = "Target Support Files/Pods-QuitBadHabits/Pods-QuitBadHabits.release.xcconfig"; sourceTree = "<group>"; };
+		96B895D2DABC52D05B2DCA94 /* Pods_QuitBadHabits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuitBadHabits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5543A54A385DD2968DDB717 /* Pods-QuitBadHabits.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuitBadHabits.debug.xcconfig"; path = "Target Support Files/Pods-QuitBadHabits/Pods-QuitBadHabits.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF296BED96C8500CCC63E29A /* Pods_QuitBadHabits.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B5EB44C97A18A4DD0CC4F90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96B895D2DABC52D05B2DCA94 /* Pods_QuitBadHabits.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		71E800F128CF5137001FD3D3 = {
 			isa = PBXGroup;
 			children = (
 				71E800FC28CF5137001FD3D3 /* QuitBadHabits */,
 				71E800FB28CF5137001FD3D3 /* Products */,
+				BBF2A1CD3F843AFBFA6782EB /* Pods */,
+				4B5EB44C97A18A4DD0CC4F90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +87,56 @@
 		71E800FC28CF5137001FD3D3 /* QuitBadHabits */ = {
 			isa = PBXGroup;
 			children = (
-				71E800FD28CF5137001FD3D3 /* AppDelegate.swift */,
-				71E800FF28CF5137001FD3D3 /* SceneDelegate.swift */,
-				71E8010128CF5137001FD3D3 /* ViewController.swift */,
-				71E8010328CF5137001FD3D3 /* Main.storyboard */,
+				71E8011428CF5148001FD3D3 /* SupportFiles */,
+				71E8011528CF5159001FD3D3 /* ViewControllers */,
+				71E8011628CF5442001FD3D3 /* Extensions */,
 				71E8010928CF5138001FD3D3 /* Assets.xcassets */,
+				71E8011C28CF6B50001FD3D3 /* Stallone.m4a */,
 				71E8010B28CF5138001FD3D3 /* LaunchScreen.storyboard */,
 				71E8010E28CF5138001FD3D3 /* Info.plist */,
 				71E8010628CF5137001FD3D3 /* QuitBadHabits.xcdatamodeld */,
 			);
 			path = QuitBadHabits;
+			sourceTree = "<group>";
+		};
+		71E8011428CF5148001FD3D3 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				71E800FF28CF5137001FD3D3 /* SceneDelegate.swift */,
+				71E800FD28CF5137001FD3D3 /* AppDelegate.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		71E8011528CF5159001FD3D3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				71E8010128CF5137001FD3D3 /* WelcomeScreenViewController.swift */,
+				71E8012028CF850F001FD3D3 /* UserNameViewController.swift */,
+				71E8011E28CF7EA5001FD3D3 /* UserInformationViewController.swift */,
+				71E8012228CFD2A1001FD3D3 /* ViewController1.swift */,
+				71E8012428CFD2BE001FD3D3 /* ViewController2.swift */,
+				71E8012628CFD2C5001FD3D3 /* ViewController3.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		71E8011628CF5442001FD3D3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				71E8011928CF5492001FD3D3 /* UIColor + Extension.swift */,
+				71E8011728CF5458001FD3D3 /* Colors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BBF2A1CD3F843AFBFA6782EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5543A54A385DD2968DDB717 /* Pods-QuitBadHabits.debug.xcconfig */,
+				7F3CAF27C6DF4FFD355FA9EE /* Pods-QuitBadHabits.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71E8011128CF5138001FD3D3 /* Build configuration list for PBXNativeTarget "QuitBadHabits" */;
 			buildPhases = (
+				DEF235D75C2E29562A563495 /* [CP] Check Pods Manifest.lock */,
 				71E800F628CF5137001FD3D3 /* Sources */,
 				71E800F728CF5137001FD3D3 /* Frameworks */,
 				71E800F828CF5137001FD3D3 /* Resources */,
+				FDEE3D702337CC823A225CF2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,20 +201,69 @@
 			files = (
 				71E8010D28CF5138001FD3D3 /* LaunchScreen.storyboard in Resources */,
 				71E8010A28CF5138001FD3D3 /* Assets.xcassets in Resources */,
-				71E8010528CF5137001FD3D3 /* Main.storyboard in Resources */,
+				71E8011D28CF6B50001FD3D3 /* Stallone.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DEF235D75C2E29562A563495 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuitBadHabits-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDEE3D702337CC823A225CF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuitBadHabits/Pods-QuitBadHabits-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuitBadHabits/Pods-QuitBadHabits-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuitBadHabits/Pods-QuitBadHabits-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		71E800F628CF5137001FD3D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71E8010228CF5137001FD3D3 /* ViewController.swift in Sources */,
+				71E8012728CFD2C5001FD3D3 /* ViewController3.swift in Sources */,
+				71E8012328CFD2A1001FD3D3 /* ViewController1.swift in Sources */,
+				71E8010228CF5137001FD3D3 /* WelcomeScreenViewController.swift in Sources */,
+				71E8011F28CF7EA5001FD3D3 /* UserInformationViewController.swift in Sources */,
+				71E8011828CF5458001FD3D3 /* Colors.swift in Sources */,
 				71E800FE28CF5137001FD3D3 /* AppDelegate.swift in Sources */,
+				71E8012528CFD2BE001FD3D3 /* ViewController2.swift in Sources */,
+				71E8011A28CF5492001FD3D3 /* UIColor + Extension.swift in Sources */,
 				71E8010028CF5137001FD3D3 /* SceneDelegate.swift in Sources */,
+				71E8012128CF850F001FD3D3 /* UserNameViewController.swift in Sources */,
 				71E8010828CF5137001FD3D3 /* QuitBadHabits.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,14 +271,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		71E8010328CF5137001FD3D3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71E8010428CF5137001FD3D3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		71E8010B28CF5138001FD3D3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,6 +398,7 @@
 		};
 		71E8011228CF5138001FD3D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5543A54A385DD2968DDB717 /* Pods-QuitBadHabits.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,7 +409,6 @@
 				INFOPLIST_FILE = QuitBadHabits/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -314,6 +426,7 @@
 		};
 		71E8011328CF5138001FD3D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F3CAF27C6DF4FFD355FA9EE /* Pods-QuitBadHabits.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -324,7 +437,6 @@
 				INFOPLIST_FILE = QuitBadHabits/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
