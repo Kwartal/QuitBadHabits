@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7109D2EF28FD80DA007C804E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7109D2EE28FD80DA007C804E /* Alamofire */; };
 		71E800FE28CF5137001FD3D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E800FD28CF5137001FD3D3 /* AppDelegate.swift */; };
 		71E8010028CF5137001FD3D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E800FF28CF5137001FD3D3 /* SceneDelegate.swift */; };
 		71E8010228CF5137001FD3D3 /* WelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8010128CF5137001FD3D3 /* WelcomeScreenViewController.swift */; };
@@ -18,9 +19,6 @@
 		71E8011D28CF6B50001FD3D3 /* Stallone.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 71E8011C28CF6B50001FD3D3 /* Stallone.m4a */; };
 		71E8011F28CF7EA5001FD3D3 /* UserInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8011E28CF7EA5001FD3D3 /* UserInformationViewController.swift */; };
 		71E8012128CF850F001FD3D3 /* UserNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8012028CF850F001FD3D3 /* UserNameViewController.swift */; };
-		71E8012328CFD2A1001FD3D3 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8012228CFD2A1001FD3D3 /* ViewController1.swift */; };
-		71E8012528CFD2BE001FD3D3 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8012428CFD2BE001FD3D3 /* ViewController2.swift */; };
-		71E8012728CFD2C5001FD3D3 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8012628CFD2C5001FD3D3 /* ViewController3.swift */; };
 		AF296BED96C8500CCC63E29A /* Pods_QuitBadHabits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B895D2DABC52D05B2DCA94 /* Pods_QuitBadHabits.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,9 +36,6 @@
 		71E8011C28CF6B50001FD3D3 /* Stallone.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stallone.m4a; sourceTree = "<group>"; };
 		71E8011E28CF7EA5001FD3D3 /* UserInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformationViewController.swift; sourceTree = "<group>"; };
 		71E8012028CF850F001FD3D3 /* UserNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameViewController.swift; sourceTree = "<group>"; };
-		71E8012228CFD2A1001FD3D3 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
-		71E8012428CFD2BE001FD3D3 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
-		71E8012628CFD2C5001FD3D3 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		7F3CAF27C6DF4FFD355FA9EE /* Pods-QuitBadHabits.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuitBadHabits.release.xcconfig"; path = "Target Support Files/Pods-QuitBadHabits/Pods-QuitBadHabits.release.xcconfig"; sourceTree = "<group>"; };
 		96B895D2DABC52D05B2DCA94 /* Pods_QuitBadHabits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuitBadHabits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5543A54A385DD2968DDB717 /* Pods-QuitBadHabits.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuitBadHabits.debug.xcconfig"; path = "Target Support Files/Pods-QuitBadHabits/Pods-QuitBadHabits.debug.xcconfig"; sourceTree = "<group>"; };
@@ -52,6 +47,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF296BED96C8500CCC63E29A /* Pods_QuitBadHabits.framework in Frameworks */,
+				7109D2EF28FD80DA007C804E /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,9 +110,6 @@
 				71E8010128CF5137001FD3D3 /* WelcomeScreenViewController.swift */,
 				71E8012028CF850F001FD3D3 /* UserNameViewController.swift */,
 				71E8011E28CF7EA5001FD3D3 /* UserInformationViewController.swift */,
-				71E8012228CFD2A1001FD3D3 /* ViewController1.swift */,
-				71E8012428CFD2BE001FD3D3 /* ViewController2.swift */,
-				71E8012628CFD2C5001FD3D3 /* ViewController3.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -157,6 +150,9 @@
 			dependencies = (
 			);
 			name = QuitBadHabits;
+			packageProductDependencies = (
+				7109D2EE28FD80DA007C804E /* Alamofire */,
+			);
 			productName = QuitBadHabits;
 			productReference = 71E800FA28CF5137001FD3D3 /* QuitBadHabits.app */;
 			productType = "com.apple.product-type.application";
@@ -185,6 +181,9 @@
 				Base,
 			);
 			mainGroup = 71E800F128CF5137001FD3D3;
+			packageReferences = (
+				7109D2ED28FD80DA007C804E /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 71E800FB28CF5137001FD3D3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -254,13 +253,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71E8012728CFD2C5001FD3D3 /* ViewController3.swift in Sources */,
-				71E8012328CFD2A1001FD3D3 /* ViewController1.swift in Sources */,
 				71E8010228CF5137001FD3D3 /* WelcomeScreenViewController.swift in Sources */,
 				71E8011F28CF7EA5001FD3D3 /* UserInformationViewController.swift in Sources */,
 				71E8011828CF5458001FD3D3 /* Colors.swift in Sources */,
 				71E800FE28CF5137001FD3D3 /* AppDelegate.swift in Sources */,
-				71E8012528CFD2BE001FD3D3 /* ViewController2.swift in Sources */,
 				71E8011A28CF5492001FD3D3 /* UIColor + Extension.swift in Sources */,
 				71E8010028CF5137001FD3D3 /* SceneDelegate.swift in Sources */,
 				71E8012128CF850F001FD3D3 /* UserNameViewController.swift in Sources */,
@@ -474,6 +470,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7109D2ED28FD80DA007C804E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7109D2EE28FD80DA007C804E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7109D2ED28FD80DA007C804E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		71E8010628CF5137001FD3D3 /* QuitBadHabits.xcdatamodeld */ = {
