@@ -29,13 +29,6 @@ final class WelcomeScreenViewController: UIPageViewController, AVAudioPlayerDele
         setupSubviews()
         configureConstraints()
         
-        let firstPage = ViewController1()
-        let secondPage = ViewController2()
-        let thirdPage = ViewController3()
-        
-        pages.append(firstPage)
-        pages.append(secondPage)
-        pages.append(thirdPage)
 
     }
     
@@ -141,6 +134,8 @@ extension WelcomeScreenViewController {
         }
     }
     
+    
+
 }
 
 
